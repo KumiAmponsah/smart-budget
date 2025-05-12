@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# 💰 Smart Budget
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Smart Budget is a simple and elegant React Native app built with Expo that helps you allocate your money wisely. Just enter an amount, and it automatically distributes it into four categories: Investment, Tithe, Emergency, and Wants.
 
-## Get started
+![Smart Budget Screenshot](https://github.com/KumiAmponsah/smart-budget/preview.png)
 
-1. Install dependencies
+🎥 **[Watch Demo Video](https://github.com/KumiAmponsah/smart-budget/display.mp4)**
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## ✨ Features
 
-   ```bash
-   npx expo start
-   ```
+- Clean, minimalist UI
+- Automatic allocation based on standard budgeting rules
+- Tabbed breakdown of category-wise allocation
+- Responsive and interactive layout
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+To run the project locally:
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/KumiAmponsah/smart-budget.git
+
+# Navigate to the project directory
+cd smart-budget
+
+# Install dependencies
+npm install
+
+# Start the Expo development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📁 Project Structure
 
-To learn more about developing your project with Expo, look at the following resources:
+```
+smart-budget/
+├── App.tsx
+├── app/
+│   └── index.tsx
+├── assets/
+│   └── ...
+├── preview.png
+└── display.mp4
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🧠 Allocation Logic
 
-Join our community of developers creating universal apps.
+- **50%** - Investment
+- **10%** - Tithe
+- **15%** - Emergency
+- **25%** - Wants
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+All calculations are handled dynamically based on user input.
+
+---
+
+## 📱 Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- TypeScript
+
+---
+
+## 🙌 Author
+
+Developed with 💜 by [Kumi Amponsah](https://github.com/KumiAmponsah)
+
+---
