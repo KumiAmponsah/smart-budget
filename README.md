@@ -2,9 +2,9 @@
 
 Smart Budget is a simple and elegant React Native app built with Expo that helps you allocate your money wisely. Just enter an amount, and it automatically distributes it into four categories: Investment, Tithe, Emergency, and Wants.
 
-![Smart Budget Screenshot](https://github.com/KumiAmponsah/smart-budget/preview.png)
+![Smart Budget Screenshot](preview.png)
 
-🎥 **[Watch Demo Video](https://github.com/KumiAmponsah/smart-budget/display.mp4)**
+ ![Watch Demo Video](video.gif)
 
 ---
 
@@ -33,21 +33,6 @@ npm install
 
 # Start the Expo development server
 npx expo start
-```
-
----
-
-## 📁 Project Structure
-
-```
-smart-budget/
-├── App.tsx
-├── app/
-│   └── index.tsx
-├── assets/
-│   └── ...
-├── preview.png
-└── display.mp4
 ```
 
 ---
